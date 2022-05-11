@@ -12,7 +12,7 @@ fontFile = settings.ttfFontFile
 
 def main():  
     #change when parking lot is generated for visual.
-    center = Image.open('center.png')
+    center = Image.open('bts/center.png')
     
     backing = Image.new('RGBA', (board_l,board_h), color=(255,255,255,255))
     draw = ImageDraw.Draw(backing)

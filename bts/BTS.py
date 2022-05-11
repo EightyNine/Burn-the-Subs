@@ -80,10 +80,9 @@ def runBurner():
             else:
                 LED_Grn.on()
                 
-            if streamerToggle:
-                gDone = False
-                gSend()
-                gDone = True
+            gDone = False
+            gSend()
+            gDone = True
         else:
             LED_Grn.off()
         
