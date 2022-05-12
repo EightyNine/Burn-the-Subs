@@ -21,8 +21,8 @@ wsLogFile = "wsLog.txt"
 gCodeFile = "output.txt"
 
 pixelDensity = 12 #pix/mm
-boardHeightmm = 950 #mm
-boardLengthmm = 410 #mm
+boardHeightmm = 410 #mm
+boardLengthmm = 950 #mm
 borderOffset = 10 #mm
 
 gCodeDecimals = 4

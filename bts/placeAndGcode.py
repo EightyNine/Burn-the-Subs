@@ -186,8 +186,8 @@ def makeGcode(name):
     #the y position based on pixel to mm conversion
     #ascent is needed because PIL places in the upper left of the text
     #yCursor = (absBoardY) + (sub.positionY * mm2pix) - (ascentEm * em2MM)   
-    yCursor =  ((-1) * name.positionY * mm2pix) - (ascentEm * em2MM) + yPosCal
-    xCursor =  (absBoardX) + (name.positionX * mm2pix) + xPosCal
+    yCursor =  (name.positionY * mm2pix) - (ascentEm * em2MM) + yPosCal
+    xCursor =  (name.positionX * mm2pix) - (ascentEm * em2MM) + xPosCal
     
     lastChar = None
     hkern = None
